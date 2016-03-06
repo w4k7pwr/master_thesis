@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/install
+
+Name: gazebo_ros_control
+Description: Description of gazebo_ros_control
+Version: 2.4.10
+Cflags: -I/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/install/include
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/install/lib -lgazebo_ros_control -ldefault_robot_hw_sim
+Requires: roscpp std_msgs controller_manager control_toolbox pluginlib hardware_interface transmission_interface joint_limits_interface urdf angles

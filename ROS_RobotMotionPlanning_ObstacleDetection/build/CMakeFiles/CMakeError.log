@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3485565424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3485565424.dir/build.make CMakeFiles/cmTryCompileExec3485565424.dir/build
+make[1]: Wejście do katalogu `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3485565424.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3485565424.dir/CheckSymbolExists.c.o   -c /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3485565424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3485565424.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3485565424.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3485565424 -rdynamic 
+CMakeFiles/cmTryCompileExec3485565424.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Opuszczenie katalogu `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3485565424] Błąd 1
+make: *** [cmTryCompileExec3485565424/fast] Błąd 2
+
+File /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3536299558/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3536299558.dir/build.make CMakeFiles/cmTryCompileExec3536299558.dir/build
+make[1]: Wejście do katalogu `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3536299558.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3536299558.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3536299558
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3536299558.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3536299558.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3536299558 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Opuszczenie katalogu `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3536299558] Błąd 1
+make: *** [cmTryCompileExec3536299558/fast] Błąd 2
+
+
