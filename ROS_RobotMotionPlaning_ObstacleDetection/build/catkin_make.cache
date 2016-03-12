@@ -1,0 +1,2 @@
+gazebo_ros_pkgs/gazebo_msgs:gazebo_ros_pkgs/gazebo_plugins:gazebo_ros_pkgs/gazebo_ros:gazebo_ros_pkgs/gazebo_ros_control:gazebo_ros_pkgs/gazebo_ros_pkgs
+-DCATKIN_DEVEL_PREFIX=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlaning_ObstacleDetection/devel -DCMAKE_INSTALL_PREFIX=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlaning_ObstacleDetection/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlaning_ObstacleDetection/install
+
+Name: gazebo_msgs
+Description: Description of gazebo_msgs
+Version: 2.4.10
+Cflags: -I/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlaning_ObstacleDetection/install/include
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_RobotMotionPlaning_ObstacleDetection/install/lib 
+Requires: message_runtime std_msgs trajectory_msgs geometry_msgs sensor_msgs std_srvs message_generation
