@@ -1,0 +1,8 @@
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/clean_test_results.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/clean_test_results_Project.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/download_extra_data.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/doxygen.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest/CMakeFiles/gtest.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest/CMakeFiles/gtest_main.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/run_tests.dir
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/tests.dir
