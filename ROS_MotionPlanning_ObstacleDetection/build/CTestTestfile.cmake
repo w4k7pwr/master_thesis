@@ -5,3 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
+SUBDIRS(gazebo7_worlds)
+SUBDIRS(ua_ros_p3dx/p3dx_control)
+SUBDIRS(ua_ros_p3dx/p3dx_description)
+SUBDIRS(ua_ros_p3dx/p3dx_gazebo)

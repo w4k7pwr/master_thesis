@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/install
+
+Name: p3dx_control
+Description: Description of p3dx_control
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/install/lib 
+Requires: 

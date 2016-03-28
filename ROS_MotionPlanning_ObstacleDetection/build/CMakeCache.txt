@@ -251,8 +251,62 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/jade/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/jade/share/actionlib_msgs/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/jade/share/catkin/cmake
+
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/jade/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/jade/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for controller_manager.
+controller_manager_DIR:PATH=/opt/ros/jade/share/controller_manager/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/jade/share/controller_manager_msgs/cmake
+
+//The directory containing a CMake configuration file for cpp_common.
+cpp_common_DIR:PATH=/opt/ros/jade/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/jade/share/dynamic_reconfigure/cmake
+
+//Value Computed by CMake
+gazebo7_worlds_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gazebo7_worlds
+
+//Value Computed by CMake
+gazebo7_worlds_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/gazebo7_worlds
+
+//The directory containing a CMake configuration file for gazebo_msgs.
+gazebo_msgs_DIR:PATH=/opt/ros/jade/share/gazebo_msgs/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros.
+gazebo_ros_DIR:PATH=/opt/ros/jade/share/gazebo_ros/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/jade/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/jade/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/jade/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/jade/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/jade/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/jade/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest
@@ -278,6 +332,114 @@ gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/jade/share/hardware_interface/cmake
+
+//Path to a library.
+lib:FILEPATH=/opt/ros/jade/lib/libdynamic_reconfigure_config_init_mutex.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/jade/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/jade/share/message_generation/cmake
+
+//The directory containing a CMake configuration file for message_runtime.
+message_runtime_DIR:PATH=/opt/ros/jade/share/message_runtime/cmake
+
+//Value Computed by CMake
+p3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_control
+
+//The directory containing a CMake configuration file for p3dx_control.
+p3dx_control_DIR:PATH=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/share/p3dx_control/cmake
+
+//Value Computed by CMake
+p3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_control
+
+//Value Computed by CMake
+p3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_description
+
+//The directory containing a CMake configuration file for p3dx_description.
+p3dx_description_DIR:PATH=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/share/p3dx_description/cmake
+
+//Value Computed by CMake
+p3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_description
+
+//Value Computed by CMake
+p3dx_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_gazebo
+
+//Value Computed by CMake
+p3dx_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_gazebo
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/jade/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for realtime_tools.
+realtime_tools_DIR:PATH=/opt/ros/jade/share/realtime_tools/cmake
+
+//The directory containing a CMake configuration file for rosconsole.
+rosconsole_DIR:PATH=/opt/ros/jade/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/jade/share/rosconsole_bridge/cmake
+
+//The directory containing a CMake configuration file for roscpp.
+roscpp_DIR:PATH=/opt/ros/jade/share/roscpp/cmake
+
+//The directory containing a CMake configuration file for roscpp_serialization.
+roscpp_serialization_DIR:PATH=/opt/ros/jade/share/roscpp_serialization/cmake
+
+//The directory containing a CMake configuration file for roscpp_traits.
+roscpp_traits_DIR:PATH=/opt/ros/jade/share/roscpp_traits/cmake
+
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/jade/share/rosgraph/cmake
+
+//The directory containing a CMake configuration file for rosgraph_msgs.
+rosgraph_msgs_DIR:PATH=/opt/ros/jade/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/jade/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/jade/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostime.
+rostime_DIR:PATH=/opt/ros/jade/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/jade/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/jade/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/jade/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/jade/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/jade/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/jade/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/jade/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/jade/share/tf/cmake
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/jade/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/jade/share/urdf/cmake
+
+//The directory containing a CMake configuration file for xmlrpcpp.
+xmlrpcpp_DIR:PATH=/opt/ros/jade/share/xmlrpcpp/cmake
 
 
 ########################
@@ -381,7 +543,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=2
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
