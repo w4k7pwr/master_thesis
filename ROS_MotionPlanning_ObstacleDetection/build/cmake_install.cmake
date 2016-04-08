@@ -119,6 +119,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest/cmake_install.cmake")
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gazebo7_worlds/cmake_install.cmake")
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_control/cmake_install.cmake")
+  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/rosaria/cmake_install.cmake")
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_description/cmake_install.cmake")
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_gazebo/cmake_install.cmake")
 

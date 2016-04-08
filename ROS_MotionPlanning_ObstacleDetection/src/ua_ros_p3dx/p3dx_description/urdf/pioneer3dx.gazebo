@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
   <!-- base_link -->
 	<gazebo reference="base_link">
-		<material>Gazebo/Red</material>
+		<material>Gazebo/Grey</material>
 	</gazebo>
 
   <!-- top_plate -->

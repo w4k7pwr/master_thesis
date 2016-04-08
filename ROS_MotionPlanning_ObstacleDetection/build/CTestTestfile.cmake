@@ -7,5 +7,6 @@
 SUBDIRS(gtest)
 SUBDIRS(gazebo7_worlds)
 SUBDIRS(ua_ros_p3dx/p3dx_control)
+SUBDIRS(rosaria)
 SUBDIRS(ua_ros_p3dx/p3dx_description)
 SUBDIRS(ua_ros_p3dx/p3dx_gazebo)

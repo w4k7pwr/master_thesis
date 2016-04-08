@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel
+
+Name: rosaria
+Description: Description of rosaria
+Version: 0.9.0
+Cflags: -I/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/include
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/lib 
+Requires: roscpp nav_msgs geometry_msgs sensor_msgs tf
