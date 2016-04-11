@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gazebo_worlds")
+set(gazebo_worlds_MAINTAINER "wasiel13 <wasiel13@todo.todo>")
+set(gazebo_worlds_DEPRECATED "")
+set(gazebo_worlds_VERSION "0.0.0")
+set(gazebo_worlds_BUILD_DEPENDS )
+set(gazebo_worlds_RUN_DEPENDS )
+set(gazebo_worlds_BUILDTOOL_DEPENDS "catkin")

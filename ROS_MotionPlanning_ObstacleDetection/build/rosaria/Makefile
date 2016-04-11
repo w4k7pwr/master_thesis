@@ -192,20 +192,6 @@ actionlib_generate_messages_cpp/fast:
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
-rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_eus: rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
@@ -246,20 +232,6 @@ actionlib_msgs_generate_messages_cpp: rosaria/CMakeFiles/actionlib_msgs_generate
 actionlib_msgs_generate_messages_cpp/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_eus: rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : actionlib_msgs_generate_messages_eus
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
@@ -318,20 +290,6 @@ dynamic_reconfigure_generate_messages_cpp/fast:
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
-rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_eus: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_eus
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_eus/fast
-
-# Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
@@ -374,20 +332,6 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
@@ -428,20 +372,6 @@ nav_msgs_generate_messages_cpp: rosaria/CMakeFiles/nav_msgs_generate_messages_cp
 nav_msgs_generate_messages_cpp/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_eus: rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
@@ -528,20 +458,6 @@ rosaria_generate_messages_cpp/fast:
 .PHONY : rosaria_generate_messages_cpp/fast
 
 # Convenience name for target.
-rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosaria_generate_messages_eus: rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
-.PHONY : rosaria_generate_messages_eus
-
-# fast build rule for target.
-rosaria_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build
-.PHONY : rosaria_generate_messages_eus/fast
-
-# Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
@@ -568,20 +484,6 @@ rosaria_generate_messages_py: rosaria/CMakeFiles/rosaria_generate_messages_py.di
 rosaria_generate_messages_py/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build
 .PHONY : rosaria_generate_messages_py/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/rosaria_geneus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_geneus.dir/rule
-.PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/rule
-
-# Convenience name for target.
-rosaria_geneus: rosaria/CMakeFiles/rosaria_geneus.dir/rule
-.PHONY : rosaria_geneus
-
-# fast build rule for target.
-rosaria_geneus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_geneus.dir/build.make rosaria/CMakeFiles/rosaria_geneus.dir/build
-.PHONY : rosaria_geneus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_genlisp.dir/rule:
@@ -612,6 +514,90 @@ rosaria_genpy/fast:
 .PHONY : rosaria_genpy/fast
 
 # Convenience name for target.
+rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
@@ -624,20 +610,6 @@ sensor_msgs_generate_messages_cpp: rosaria/CMakeFiles/sensor_msgs_generate_messa
 sensor_msgs_generate_messages_cpp/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
@@ -668,6 +640,48 @@ sensor_msgs_generate_messages_py/fast:
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
@@ -680,20 +694,6 @@ tf2_msgs_generate_messages_cpp: rosaria/CMakeFiles/tf2_msgs_generate_messages_cp
 tf2_msgs_generate_messages_cpp/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_eus: rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-.PHONY : tf2_msgs_generate_messages_eus
-
-# fast build rule for target.
-tf2_msgs_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-.PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
@@ -736,20 +736,6 @@ tf_generate_messages_cpp: rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
 tf_generate_messages_cpp/fast:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
-.PHONY : rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_eus: rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
-.PHONY : tf_generate_messages_eus
-
-# fast build rule for target.
-tf_generate_messages_eus/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf_generate_messages_eus.dir/build
-.PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule:
@@ -836,21 +822,17 @@ help:
 	@echo "... RosAria"
 	@echo "... _rosaria_generate_messages_check_deps_BumperState"
 	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
@@ -858,7 +840,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
@@ -866,23 +847,27 @@ help:
 	@echo "... rosaria_gencpp"
 	@echo "... rosaria_generate_messages"
 	@echo "... rosaria_generate_messages_cpp"
-	@echo "... rosaria_generate_messages_eus"
 	@echo "... rosaria_generate_messages_lisp"
 	@echo "... rosaria_generate_messages_py"
-	@echo "... rosaria_geneus"
 	@echo "... rosaria_genlisp"
 	@echo "... rosaria_genpy"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_eus"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
 	@echo "... LaserPublisher.o"

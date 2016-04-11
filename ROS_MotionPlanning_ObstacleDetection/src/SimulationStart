@@ -1,0 +1,16 @@
+#!/bin/bash
+ 
+my_pid=$$
+echo "My process ID is $my_pid"
+
+echo "Launching roscore..."
+roscore &
+pid=$!
+sleep 5s
+
+echo "Launching Gazebo..."
+roslaunch gazebo_worlds World.launch 
+pid="$pid $!"
+
+sleep 5s
+

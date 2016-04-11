@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_
 include CMakeFiles/clean_test_results_Project.dir/progress.make
 
 CMakeFiles/clean_test_results_Project:
-	/usr/bin/python /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/test_results/Project
+	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/test_results/Project
 
 clean_test_results_Project: CMakeFiles/clean_test_results_Project
 clean_test_results_Project: CMakeFiles/clean_test_results_Project.dir/build.make

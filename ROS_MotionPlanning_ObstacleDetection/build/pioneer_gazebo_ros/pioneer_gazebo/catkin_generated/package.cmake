@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pioneer_gazebo")
+set(pioneer_gazebo_MAINTAINER "Jen Jen Chung <jenjen.chung88@gmail.com>")
+set(pioneer_gazebo_DEPRECATED "")
+set(pioneer_gazebo_VERSION "0.1.0")
+set(pioneer_gazebo_BUILD_DEPENDS )
+set(pioneer_gazebo_RUN_DEPENDS "pioneer_description" "pioneer_control" "gazebo_ros")
+set(pioneer_gazebo_BUILDTOOL_DEPENDS "catkin")
