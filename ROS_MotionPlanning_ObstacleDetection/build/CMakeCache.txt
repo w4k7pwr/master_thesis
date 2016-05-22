@@ -278,6 +278,24 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
+//Value Computed by CMake
+amr_robots_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/description
+
+//Value Computed by CMake
+amr_robots_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/description
+
+//Value Computed by CMake
+amr_robots_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/gazebo
+
+//Value Computed by CMake
+amr_robots_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/gazebo
+
+//Value Computed by CMake
+amr_robots_launchfiles_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/launch
+
+//Value Computed by CMake
+amr_robots_launchfiles_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/launch
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -363,8 +381,11 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/opt/ros/indigo/share/hardware_interface/cmake
 
+//The directory containing a CMake configuration file for kdl_parser.
+kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+lib:FILEPATH=/opt/ros/indigo/lib/librosconsole_bridge.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -391,28 +412,32 @@ nav_bundle_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_t
 nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
 
 //Value Computed by CMake
-p3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_control
-
-//The directory containing a CMake configuration file for p3dx_control.
-p3dx_control_DIR:PATH=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/share/p3dx_control/cmake
+p3dx_2_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_2_description
 
 //Value Computed by CMake
-p3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_control
+p3dx_2_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_2_description
 
 //Value Computed by CMake
-p3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_description
+p3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/p3dx_control
 
-//The directory containing a CMake configuration file for p3dx_description.
-p3dx_description_DIR:PATH=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/share/p3dx_description/cmake
-
-//Value Computed by CMake
-p3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_description
+p3dx_control_DIR:PATH=
 
 //Value Computed by CMake
-p3dx_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_gazebo
+p3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/p3dx_control
 
 //Value Computed by CMake
-p3dx_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_gazebo
+p3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/p3dx_description
+
+p3dx_description_DIR:PATH=
+
+//Value Computed by CMake
+p3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/p3dx_description
+
+//Value Computed by CMake
+p3dx_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/p3dx_gazebo
+
+//Value Computed by CMake
+p3dx_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/p3dx_gazebo
 
 //Value Computed by CMake
 pioneer_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_2dnav
@@ -421,16 +446,34 @@ pioneer_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/maste
 pioneer_2dnav_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_2dnav
 
 //Value Computed by CMake
-pioneer_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_gazebo_ros/pioneer_control
+pioneer_3dx__control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_control
 
 //Value Computed by CMake
-pioneer_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_gazebo_ros/pioneer_control
+pioneer_3dx__control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_control
 
 //Value Computed by CMake
-pioneer_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_gazebo_ros/pioneer_description
+pioneer_3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_control
 
 //Value Computed by CMake
-pioneer_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_gazebo_ros/pioneer_description
+pioneer_3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_control
+
+//Value Computed by CMake
+pioneer_3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_description
+
+//Value Computed by CMake
+pioneer_3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_description
+
+//Value Computed by CMake
+pioneer_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_control
+
+//Value Computed by CMake
+pioneer_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_control
+
+//Value Computed by CMake
+pioneer_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_description
+
+//Value Computed by CMake
+pioneer_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_description
 
 //Value Computed by CMake
 pioneer_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_gazebo_ros/pioneer_gazebo
@@ -444,11 +487,20 @@ pioneer_ros_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_
 //Value Computed by CMake
 pioneer_ros_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_gazebo_ros/pioneer_ros
 
+//Value Computed by CMake
+pionieer_3dx_manual_ctrl_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx_manual_ctrl
+
+//Value Computed by CMake
+pionieer_3dx_manual_ctrl_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx_manual_ctrl
+
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/indigo/share/realtime_tools/cmake
+
+//The directory containing a CMake configuration file for robot_state_publisher.
+robot_state_publisher_DIR:PATH=/opt/ros/indigo/share/robot_state_publisher/cmake
 
 //Value Computed by CMake
 rosaria_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/rosaria
@@ -503,6 +555,9 @@ std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_kdl.
+tf2_kdl_DIR:PATH=/opt/ros/indigo/share/tf2_kdl/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake

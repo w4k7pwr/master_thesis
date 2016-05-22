@@ -1,2 +1,2 @@
-gazebo_worlds:pionieer_3dx/pioneer_gazebo_ros/pioneer_control:pionieer_3dx/pioneer_gazebo_ros/pioneer_description:rosaria
+gazebo_worlds:pionieer_3dx/pioneer_control:pionieer_3dx/pioneer_description:pionieer_3dx_manual_ctrl
 -DCATKIN_DEVEL_PREFIX=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel -DCMAKE_INSTALL_PREFIX=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/install -G Unix Makefiles

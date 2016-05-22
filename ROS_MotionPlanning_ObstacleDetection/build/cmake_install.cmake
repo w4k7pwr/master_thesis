@@ -118,9 +118,9 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest/cmake_install.cmake")
   INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gazebo_worlds/cmake_install.cmake")
-  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_gazebo_ros/pioneer_control/cmake_install.cmake")
-  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_gazebo_ros/pioneer_description/cmake_install.cmake")
-  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/rosaria/cmake_install.cmake")
+  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_control/cmake_install.cmake")
+  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_description/cmake_install.cmake")
+  INCLUDE("/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx_manual_ctrl/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
