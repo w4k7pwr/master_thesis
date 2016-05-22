@@ -24,7 +24,7 @@ left = 0.0
 keyPress = 0
 
 while(keyPress != USER_QUIT):
-	pub = rospy.Publisher('/pioneer1/pioneer/cmd_vel', Twist)
+	pub = rospy.Publisher('/pioneer/cmd_vel', Twist)
 	rospy.init_node('pionieer_3dx_manual_ctrl')
 
 	twist = Twist()
@@ -32,23 +32,36 @@ while(keyPress != USER_QUIT):
 	keyPress = getch.getArrow()
 
 	if((keyPress == KEY_UP) and (forward <= MAX_FORWARD)):
-		forward += 0.1
+		if(forward=(-0.1)):
+			forward=0
+		else:			
+			forward += 0.1
 		print forward
 	elif((keyPress == KEY_DOWN) and (forward >= MIN_FORWARD)):
-		forward -= 0.1
+		if(forward=0.1):
+			forward=0
+		else:			
+			forward -= 0.1
 		print forward
-	elif((keyPress == KEY_LEFT) and (left <= MAX_LEFT)):
-		left += 0.1
+	elif((keyPress == KEY_LEFT) and (left >= MIN_LEFT)):
+		if(left=0.1):
+			left=0
+		else:			
+			left -= 0.1
 		print left
-	elif((keyPress == KEY_RIGHT) and (left >= MIN_LEFT)):
-		left -= 0.1
+	elif((keyPress == KEY_RIGHT) and (left <= MAX_LEFT)):
+		if(left=(-0.1)):
+			left=0
+		else:			
+			left += 0.1
 		print left
+		
 
 	twist.linear.x = forward
 	twist.angular.z = left
 	pub.publish(twist)
 
-pub = rospy.Publisher('/pioneer1/pioneer/cmd_vel', Twist)
+pub = rospy.Publisher('/pioneer/cmd_vel', Twist)
 rospy.init_node('pionieer_3dx_manual_ctrl')
 twist = Twist()
 pub.publish(twist)

@@ -32,17 +32,30 @@ while(keyPress != USER_QUIT):
 	keyPress = getch.getArrow()
 
 	if((keyPress == KEY_UP) and (forward <= MAX_FORWARD)):
-		forward += 0.1
+		if(forward==(-0.1)):
+			forward=0
+		else:			
+			forward += 0.1
 		print forward
 	elif((keyPress == KEY_DOWN) and (forward >= MIN_FORWARD)):
-		forward -= 0.1
+		if(forward==0.1):
+			forward=0
+		else:			
+			forward -= 0.1
 		print forward
-	elif((keyPress == KEY_LEFT) and (left <= MAX_LEFT)):
-		left += 0.1
+	elif((keyPress == KEY_LEFT) and (left >= MIN_LEFT)):
+		if(left==0.1):
+			left=0
+		else:			
+			left -= 0.1
 		print left
-	elif((keyPress == KEY_RIGHT) and (left >= MIN_LEFT)):
-		left -= 0.1
+	elif((keyPress == KEY_RIGHT) and (left <= MAX_LEFT)):
+		if(left==(-0.1)):
+			left=0
+		else:			
+			left += 0.1
 		print left
+		
 
 	twist.linear.x = forward
 	twist.angular.z = left

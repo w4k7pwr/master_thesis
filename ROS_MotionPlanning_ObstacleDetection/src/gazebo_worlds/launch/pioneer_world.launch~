@@ -29,6 +29,6 @@
 	args="$(arg init_pose) -urdf -model $(arg robot_name) -param /robot_description"/>
 
   <!-- ros_control pioneer launch file -->
-  <!--include file="$(find pioneer_control)/launch/pioneer__control.launch" /-->
+  <!--include file="$(find pioneer_control)/launch/pioneer_control.launch" /-->
 
 </launch>
