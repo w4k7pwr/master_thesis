@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(pionieer3dx_manual_ctrl)
+project(pioneer_3dx_manual_ctrl)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -97,7 +97,7 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES pionieer3dx_manual_ctrl
+#  LIBRARIES pionieer_3dx_manual_ctrl
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -111,24 +111,24 @@ catkin_package(
 # include_directories(include)
 
 ## Declare a C++ library
-# add_library(pionieer3dx_manual_ctrl
-#   src/${PROJECT_NAME}/pionieer3dx_manual_ctrl.cpp
+# add_library(pionieer_3dx_manual_ctrl
+#   src/${PROJECT_NAME}/pionieer_3dx_manual_ctrl.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(pionieer3dx_manual_ctrl ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(pionieer_3dx_manual_ctrl ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(pionieer3dx_manual_ctrl_node src/pionieer3dx_manual_ctrl_node.cpp)
+# add_executable(pionieer_3dx_manual_ctrl_node src/pionieer_3dx_manual_ctrl_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(pionieer3dx_manual_ctrl_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(pionieer_3dx_manual_ctrl_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(pionieer3dx_manual_ctrl_node
+# target_link_libraries(pionieer_3dx_manual_ctrl_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -147,7 +147,7 @@ catkin_package(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS pionieer3dx_manual_ctrl pionieer3dx_manual_ctrl_node
+# install(TARGETS pionieer_3dx_manual_ctrl pionieer_3dx_manual_ctrl_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -172,7 +172,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_pionieer3dx_manual_ctrl.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_pionieer_3dx_manual_ctrl.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
