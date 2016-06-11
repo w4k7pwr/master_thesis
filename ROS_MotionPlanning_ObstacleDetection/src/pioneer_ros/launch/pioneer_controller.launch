@@ -1,0 +1,12 @@
+<launch>
+	<!-- Robot controller parameters -->
+  <node pkg="pioneer_ros" type="pioneer_pid_controller" name="pioneer_ros">
+  	<rosparam file="$(find pioneer_ros)/pioneer_controller_params.yaml" command="load"/>
+  </node>
+
+  <!-- REDUNDANT LAUNCH FILE: Transforms are already handled by Gazebo -->
+  <node name="pioneer_tf_broadcaster" pkg="pioneer_ros" type="pioneer_tf_broadcaster"/>
+  
+  <node name="pioneer_odom_publisher" pkg="pioneer_ros" type="pioneer_odom_publisher"/>
+
+</launch>

@@ -9,7 +9,7 @@
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find gazebo_worlds)/worlds/FactoryGazeboWorld.world"/>
+    <arg name="world_name" value="$(find gazebo_worlds)/worlds/Factory_World.world"/>
     <arg name="debug" value="$(arg debug)" />
     <arg name="gui" value="$(arg gui)" />
     <arg name="paused" value="$(arg paused)"/>
@@ -17,18 +17,33 @@
     <arg name="headless" value="$(arg headless)"/>
   </include>
   
+
+  <!-- No namespace here as we will share this description. 
+       Access with slash at the beginning -->
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description"
 	 command="$(find xacro)/xacro.py '$(find pioneer_description)/urdf/pioneer3dx.xacro'" />
 
-  <arg name="robot_name" value="pioneer_1" />
-  <arg name="init_pose" value="-x 0 -y -55 -z 0"/>
+  <!-- BEGIN PIONEER 1-->
+  
+    
+    <include file="$(find pioneer_description)/launch/one_pioneer.launch" >
+      <arg name="init_pose" value="-x 0 -y -55 -z 0" />
+      
+    </include>
+    
+  <param name="/use_sim_time" value="true"/>
 
-  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="$(arg init_pose) -urdf -model $(arg robot_name) -param /robot_description"/>
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find gazebo_worlds)/maps/FactoryWorld.yaml" >
+    <param name="frame_id" value="/map" />
+  </node>
+    <param name="robot_description"
+    command="$(find xacro)/xacro.py '$(find pioneer_description)/urdf/pioneer3dx.xacro'" />
 
-  <!-- ros_control pioneer launch file -->
-  <!--include file="$(find pioneer_control)/launch/pioneer_control.launch" /-->
+  <!-- Show in Rviz   -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pioneer_description)/launch/pioneer.rviz"/>
+    <include file="$(find pioneer_control)/launch/pioneer_control.launch"/>
+ 
 
 </launch>

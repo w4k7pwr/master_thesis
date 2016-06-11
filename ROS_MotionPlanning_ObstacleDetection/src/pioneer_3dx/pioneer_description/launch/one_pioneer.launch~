@@ -1,20 +1,16 @@
 <launch>
-  <arg name="robot_name" value="p3dx_1"/>
-  <arg name="init_pose" value="-x 0 -y -55 -z 0"/>
-
-  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  
+  <arg name="init_pose"/>
+<!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="$(arg init_pose) -urdf -model $(arg robot_name) -param /robot_description"/>
+	args="$(arg init_pose) -urdf -model pioneer -param robot_description"/>
 
-  <!-- send fake joint values -->
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
-    <param name="use_gui" value="FALSE"/>
-    <remap from="robot_description" to="/robot_description"/>
-  </node>
+  <!-- ros_control pioneer launch file -->
+  <include file="$(find pioneer_control)/launch/pioneer_control.launch" />
 
-  <!-- Combine joint values -->
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
 
-  <!-- The odometry estimator, throttling, fake laser etc. go here -->
-  <!-- All the stuff as from usual robot launch file -->  
+
+
+
+
 </launch>

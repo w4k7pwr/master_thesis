@@ -1,0 +1,27 @@
+<launch>
+  <param name="/initial_pose_x" value="0" />
+  <param name="/initial_pose_y" value="-55" />
+  <param name="/initial_pose_a" value="0)" />
+  
+  <arg name="robot_name" value="pioneer_1" />
+  <!--include file="$(find pioneer_3dx_2dnav)/launch/pioneer_3dx_2dnav_amcl.launch"-->
+    <!--arg name="tf_name" value="$(arg robot_name)"/-->
+   <!--/include-->
+  <!-- Assert fixed transform between map and odom (perfect localisation) -->
+   
+  <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster" args="0 0 0 0 0 0 1 /map /odom 100" output="screen"/>
+  <!-- END: Use with multi-pioneer simulation -->
+
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find pioneer_3dx_2dnav)/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find pioneer_3dx_2dnav)/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find pioneer_3dx_2dnav)/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find pioneer_3dx_2dnav)/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find pioneer_3dx_2dnav)/base_local_planner_params.yaml" command="load" />
+    <remap from="map" to="/map" />
+ 
+  </node>
+
+  <!--include file="$(find pioneer_ros)/launch/pioneer_controller.launch"/-->
+</launch>

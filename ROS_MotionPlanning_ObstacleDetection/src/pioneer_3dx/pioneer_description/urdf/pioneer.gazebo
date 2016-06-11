@@ -1,17 +1,6 @@
 <?xml version="1.0"?>
 <robot>
 
-  <!-- ros_control plugin -->
-  <!--<gazebo>
-    <plugin name="differential_drive_controller" filename="libDiffDrivePlugin.so">
-      <updateRate>100.0</updateRate>
-      <robotNamespace>pioneer</robotNamespace>
-      <left_joint>base_left_wheel_joint</left_joint>
-      <right_joint>base_right_wheel_joint</right_joint>
-      <torque>200</torque>
-      <topicName>cmd_vel</topicName>
-    </plugin>
-  </gazebo>-->
   <gazebo>
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
       <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
@@ -27,8 +16,9 @@
       <torque>5</torque>
       <wheelSeparation>0.39</wheelSeparation>
       <wheelDiameter>0.15</wheelDiameter>
-      <commandTopic>pioneer/cmd_vel</commandTopic>
+      <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
+      <odometrySource>FactoryWorld.world</odometrySource>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>base_link</robotBaseFrame>
       <publishWheelTF>true</publishWheelTF>
@@ -38,21 +28,7 @@
       <rosDebugLevel>na</rosDebugLevel>
     </plugin>
   </gazebo>
-  <!--<gazebo>
-    <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
-      <updateRate>100.0</updateRate>
-      <robotNamespace>/pioneer</robotNamespace>
-      <leftFrontJoint>base_left_wheel_joint</leftFrontJoint>
-      <rightFrontJoint>base_right_wheel_joint</rightFrontJoint>
-      <leftRearJoint>base_left_wheel_joint</leftRearJoint>
-      <rightRearJoint>base_right_wheel_joint</rightRearJoint>
-      <wheelSeparation>0.39</wheelSeparation>
-      <wheelDiameter>0.15</wheelDiameter>
-      <robotBaseFrame>base_link</robotBaseFrame>
-      <torque>200</torque>
-      <topicName>cmd_vel</topicName>
-    </plugin>
-  </gazebo>-->
+
 
   <!-- Chassis -->
 	<gazebo reference="chassis">
@@ -141,7 +117,7 @@
         </noise>
       </ray>
       <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-        <topicName>base_scan</topicName>
+        <topicName>scan</topicName>
         <frameName>hokuyo_link</frameName>
       </plugin>
     </sensor>

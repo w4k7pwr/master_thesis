@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(gazebo_worlds)
-SUBDIRS(pionieer_3dx/pioneer_control)
-SUBDIRS(pionieer_3dx/pioneer_description)
-SUBDIRS(pionieer_3dx_manual_ctrl)
+SUBDIRS(pioneer_3dx_manual_ctrl)
+SUBDIRS(pioneer_3dx/pioneer_description)
+SUBDIRS(pioneer_ros)
+SUBDIRS(pioneer_3dx_2dnav)
