@@ -7,6 +7,7 @@
 SUBDIRS(gtest)
 SUBDIRS(gazebo_worlds)
 SUBDIRS(pioneer_3dx_manual_ctrl)
-SUBDIRS(pioneer_3dx/pioneer_description)
+SUBDIRS(pioneer_3dx/p3dx_control)
 SUBDIRS(pioneer_ros)
+SUBDIRS(pioneer_3dx/p3dx_description)
 SUBDIRS(pioneer_3dx_2dnav)

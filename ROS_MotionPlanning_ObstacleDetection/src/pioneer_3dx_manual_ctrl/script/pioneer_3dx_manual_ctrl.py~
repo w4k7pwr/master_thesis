@@ -24,7 +24,7 @@ left = 0.0
 keyPress = 0
 
 while(keyPress != USER_QUIT):
-	pub = rospy.Publisher('/pioneer/cmd_vel', Twist)
+	pub = rospy.Publisher('/p3dx/cmd_vel', Twist)
 	rospy.init_node('pioneer_3dx_manual_ctrl')
 
 	twist = Twist()
@@ -61,7 +61,7 @@ while(keyPress != USER_QUIT):
 	twist.angular.z = left
 	pub.publish(twist)
 
-pub = rospy.Publisher('/pioneer/cmd_vel', Twist)
+pub = rospy.Publisher('/p3dx/cmd_vel', Twist)
 rospy.init_node('pioneer_3dx_manual_ctrl')
 twist = Twist()
 pub.publish(twist)
