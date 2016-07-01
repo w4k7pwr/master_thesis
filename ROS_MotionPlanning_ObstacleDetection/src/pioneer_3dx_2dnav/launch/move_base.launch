@@ -9,8 +9,8 @@
    <!--/include-->
   <!-- Assert fixed transform between map and odom (perfect localisation) -->
    
-  <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster" args="0 0 0 0 0 0 1 /map /odom 100" output="screen"/>
-  <!-- END: Use with multi-pioneer simulation -->
+ <node pkg="tf" type="static_transform_publisher" name="map_1odom_broadcaster" args="0 0 0 0 0 0 1 /map pioneer5/odom 100" output="screen"/>
+ <!-- END: Use with multi-pioneer simulation -->
 
 
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">

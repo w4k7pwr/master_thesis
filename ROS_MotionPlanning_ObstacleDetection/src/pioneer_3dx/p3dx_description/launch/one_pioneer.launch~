@@ -1,0 +1,12 @@
+<launch>
+  <arg name="robot_name"/>
+  <arg name="init_pose"/>
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="$(arg init_pose) -urdf -param /robot_description -model $(arg robot_name)"/>
+
+  <!-- Combine joint values -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+
+</launch>

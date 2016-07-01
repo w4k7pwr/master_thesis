@@ -28,27 +28,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   </gazebo>
 
   <!-- base_link -->
-	<gazebo reference="base_link">
+	<gazebo reference="pionner1/base_link">
 		<material>Gazebo/Red</material>
 	</gazebo>
 
   <!-- top_plate -->
-  <gazebo reference="top_plate">
+  <gazebo reference="pionner1/top_plate">
     <material>Gazebo/Black</material>
   </gazebo>
   
   <!-- swivel -->
-  <gazebo reference="swivel">
+  <gazebo reference="pionner1/swivel">
     <material>Gazebo/Grey</material>
   </gazebo>
   
   <!-- center_hubcap -->
-	<gazebo reference="center_hubcap">
+	<gazebo reference="pionner1/center_hubcap">
 		<material>Gazebo/Grey</material>
 	</gazebo>
   
   <!-- center_wheel -->
-	<gazebo reference="center_wheel">
+	<gazebo reference="pionner1/center_wheel">
 		<material>Gazebo/Black</material>
 		<mu1>10.0</mu1>
 		<mu2>10.0</mu2>
@@ -57,7 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	</gazebo>
   
   <!-- front_sonar -->  
-  <gazebo reference="front_sonar">
+  <gazebo reference="pionner1/front_sonar">
     <material value="Gazebo/Yellow" />
   </gazebo>
 
@@ -74,7 +74,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			<commandTopic>p3dx/cmd_vel</commandTopic>
 			<odometryTopic>p3dx/odom</odometryTopic>
 			<odometryFrame>odom</odometryFrame>
-			<robotBaseFrame>base_link</robotBaseFrame>
+			<robotBaseFrame>pionner1/base_link</robotBaseFrame>
 		</plugin>
 	</gazebo>
 
@@ -83,7 +83,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		<plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
 			<alwaysOn>true</alwaysOn>
 			<updateRate>100.0</updateRate>
-			<bodyName>base_link</bodyName>
+			<bodyName>pionner1/base_link</bodyName>
 			<topicName>p3dx/base_pose_ground_truth</topicName>
 			<gaussianNoise>0.01</gaussianNoise>
 			<frameName>map</frameName>
@@ -124,7 +124,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			</ray>
 			<plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
 				<topicName>p3dx/scan</topicName>
-				<frameName>lms100</frameName>
+				<frameName>pionner1/lms100</frameName>
 			</plugin>
 		</sensor>
 	</gazebo>
