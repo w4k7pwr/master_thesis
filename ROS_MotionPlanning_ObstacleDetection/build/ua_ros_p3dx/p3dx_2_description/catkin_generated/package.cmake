@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "p3dx_2_description")
-set(p3dx_2_description_MAINTAINER "Rafael Berkvens <rafael.berkvens@uantwerpen.be>")
-set(p3dx_2_description_DEPRECATED "")
-set(p3dx_2_description_VERSION "0.1.0")
-set(p3dx_2_description_BUILD_DEPENDS "roscpp" "rospy" "urdf")
-set(p3dx_2_description_RUN_DEPENDS "roscpp" "rospy" "urdf")
-set(p3dx_2_description_BUILDTOOL_DEPENDS "catkin")

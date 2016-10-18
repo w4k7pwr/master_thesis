@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pioneer_control")
-set(pioneer_control_MAINTAINER "Jen Jen Chung <jenjen.chung@oregonstate.edu>")
-set(pioneer_control_DEPRECATED "")
-set(pioneer_control_VERSION "0.0.0")
-set(pioneer_control_BUILD_DEPENDS )
-set(pioneer_control_RUN_DEPENDS "controller_manager")
-set(pioneer_control_BUILDTOOL_DEPENDS "catkin")

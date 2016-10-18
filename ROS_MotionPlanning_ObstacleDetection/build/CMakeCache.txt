@@ -14,29 +14,8 @@
 # EXTERNAL cache entries
 ########################
 
-//The directory containing a CMake configuration file for Aria.
-Aria_DIR:PATH=Aria_DIR-NOTFOUND
-
-//The threading library used by boost-thread
-BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
-
 //Build shared libraries (DLLs).
 BUILD_SHARED_LIBS:BOOL=ON
-
-//The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=Boost_DIR-NOTFOUND
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/include
-
-//Boost library directory
-Boost_LIBRARY_DIR:PATH=/usr/lib/x86_64-linux-gnu
-
-//Boost thread library (debug)
-Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
-
-//Boost thread library (release)
-Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
@@ -278,24 +257,6 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
-//Value Computed by CMake
-amr_robots_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/description
-
-//Value Computed by CMake
-amr_robots_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/description
-
-//Value Computed by CMake
-amr_robots_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/gazebo
-
-//Value Computed by CMake
-amr_robots_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/gazebo
-
-//Value Computed by CMake
-amr_robots_launchfiles_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/amr-ros-config/launch
-
-//Value Computed by CMake
-amr_robots_launchfiles_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/amr-ros-config/launch
-
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -318,18 +279,6 @@ cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
 
 //Value Computed by CMake
-gazebo7_worlds_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gazebo7_worlds
-
-//Value Computed by CMake
-gazebo7_worlds_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/gazebo7_worlds
-
-//The directory containing a CMake configuration file for gazebo_msgs.
-gazebo_msgs_DIR:PATH=/opt/ros/indigo/share/gazebo_msgs/cmake
-
-//The directory containing a CMake configuration file for gazebo_ros.
-gazebo_ros_DIR:PATH=/opt/ros/indigo/share/gazebo_ros/cmake
-
-//Value Computed by CMake
 gazebo_worlds_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gazebo_worlds
 
 //Value Computed by CMake
@@ -349,9 +298,6 @@ genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
-
-//The directory containing a CMake configuration file for gmapping.
-gmapping_DIR:PATH=/opt/ros/indigo/share/gmapping/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/gtest
@@ -381,9 +327,6 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/opt/ros/indigo/share/hardware_interface/cmake
 
-//The directory containing a CMake configuration file for kdl_parser.
-kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
-
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
 
@@ -399,37 +342,11 @@ message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 //The directory containing a CMake configuration file for move_base.
 move_base_DIR:PATH=/opt/ros/indigo/share/move_base/cmake
 
-//The directory containing a CMake configuration file for move_base_msgs.
-move_base_msgs_DIR:PATH=/opt/ros/indigo/share/move_base_msgs/cmake
-
-//The directory containing a CMake configuration file for my_odom_configuration_dep.
-my_odom_configuration_dep_DIR:PATH=my_odom_configuration_dep_DIR-NOTFOUND
-
-//Value Computed by CMake
-my_robot_name_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/my_robot_name_2dnav
-
-//Value Computed by CMake
-my_robot_name_2dnav_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/my_robot_name_2dnav
-
-//Value Computed by CMake
-nav_bundle_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/nav_bundle
-
-//Value Computed by CMake
-nav_bundle_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/nav_bundle
-
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
 
 //Value Computed by CMake
-p3dx_2_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/ua_ros_p3dx/p3dx_2_description
-
-//Value Computed by CMake
-p3dx_2_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/ua_ros_p3dx/p3dx_2_description
-
-//Value Computed by CMake
 p3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx/p3dx_control
-
-p3dx_control_DIR:PATH=
 
 //Value Computed by CMake
 p3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx/p3dx_control
@@ -437,22 +354,8 @@ p3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master
 //Value Computed by CMake
 p3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx/p3dx_description
 
-p3dx_description_DIR:PATH=
-
 //Value Computed by CMake
 p3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx/p3dx_description
-
-//Value Computed by CMake
-p3dx_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/p3dx_gazebo
-
-//Value Computed by CMake
-p3dx_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/p3dx_gazebo
-
-//Value Computed by CMake
-pioneer_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_2dnav
-
-//Value Computed by CMake
-pioneer_2dnav_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_2dnav
 
 //Value Computed by CMake
 pioneer_3dx_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx_2dnav
@@ -461,49 +364,10 @@ pioneer_3dx_2dnav_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/m
 pioneer_3dx_2dnav_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx_2dnav
 
 //Value Computed by CMake
-pioneer_3dx__control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_control
-
-//Value Computed by CMake
-pioneer_3dx__control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_control
-
-//Value Computed by CMake
-pioneer_3dx_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_control
-
-//Value Computed by CMake
-pioneer_3dx_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_control
-
-//Value Computed by CMake
-pioneer_3dx_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx/pioneer_3dx_description
-
-//Value Computed by CMake
-pioneer_3dx_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx/pioneer_3dx_description
-
-//Value Computed by CMake
 pioneer_3dx_manual_ctrl_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx_manual_ctrl
 
 //Value Computed by CMake
 pioneer_3dx_manual_ctrl_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx_manual_ctrl
-
-//Value Computed by CMake
-pioneer_control_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx/pioneer_control
-
-//Value Computed by CMake
-pioneer_control_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx/pioneer_control
-
-//Value Computed by CMake
-pioneer_description_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_3dx/pioneer_description
-
-//Value Computed by CMake
-pioneer_description_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_3dx/pioneer_description
-
-//Value Computed by CMake
-pioneer_gazebo_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_gazebo_ros/pioneer_gazebo
-
-//Value Computed by CMake
-pioneer_gazebo_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_gazebo_ros/pioneer_gazebo
-
-//The directory containing a CMake configuration file for pioneer_odom_configuration_dep.
-pioneer_odom_configuration_dep_DIR:PATH=pioneer_odom_configuration_dep_DIR-NOTFOUND
 
 //Value Computed by CMake
 pioneer_ros_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pioneer_ros
@@ -511,26 +375,11 @@ pioneer_ros_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_
 //Value Computed by CMake
 pioneer_ros_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pioneer_ros
 
-//Value Computed by CMake
-pionieer_3dx_manual_ctrl_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/pionieer_3dx_manual_ctrl
-
-//Value Computed by CMake
-pionieer_3dx_manual_ctrl_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/pionieer_3dx_manual_ctrl
-
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/indigo/share/realtime_tools/cmake
-
-//The directory containing a CMake configuration file for robot_state_publisher.
-robot_state_publisher_DIR:PATH=/opt/ros/indigo/share/robot_state_publisher/cmake
-
-//Value Computed by CMake
-rosaria_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/rosaria
-
-//Value Computed by CMake
-rosaria_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/rosaria
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -565,23 +414,11 @@ rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
-//Value Computed by CMake
-simple_navigation_goals_BINARY_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/simple_navigation_goals
-
-//Value Computed by CMake
-simple_navigation_goals_SOURCE_DIR:STATIC=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/simple_navigation_goals
-
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
 
-//The directory containing a CMake configuration file for std_srvs.
-std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
-
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
-
-//The directory containing a CMake configuration file for tf2_kdl.
-tf2_kdl_DIR:PATH=/opt/ros/indigo/share/tf2_kdl/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
@@ -595,9 +432,6 @@ tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
 
-//The directory containing a CMake configuration file for trajectory_msgs.
-trajectory_msgs_DIR:PATH=/opt/ros/indigo/share/trajectory_msgs/cmake
-
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/indigo/share/urdf/cmake
 
@@ -609,16 +443,6 @@ xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: Boost_DIR
-Boost_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_INCLUDE_DIR
-Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_LIBRARY_DIR
-Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
-Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
-Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/test_results
@@ -782,12 +606,4 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
-//Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=thread
-//Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
-//Last used Boost_LIBRARY_DIR value.
-_Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
-//Last used Boost_USE_MULTITHREADED value.
-_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 

@@ -71,8 +71,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			<wheelSeparation>0.39</wheelSeparation>
 			<wheelDiameter>0.15</wheelDiameter>
 			<torque>5</torque>
-			<commandTopic>p3dx/cmd_vel</commandTopic>
-			<odometryTopic>p3dx/odom</odometryTopic>
+			<commandTopic>cmd_vel</commandTopic>
+			<odometryTopic>odom</odometryTopic>
 			<odometryFrame>odom</odometryFrame>
 			<robotBaseFrame>base_link</robotBaseFrame>
 		</plugin>
@@ -84,7 +84,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			<alwaysOn>true</alwaysOn>
 			<updateRate>100.0</updateRate>
 			<bodyName>base_link</bodyName>
-			<topicName>p3dx/base_pose_ground_truth</topicName>
+			<topicName>base_pose_ground_truth</topicName>
 			<gaussianNoise>0.01</gaussianNoise>
 			<frameName>map</frameName>
 			<!-- initialize odometry for fake localization -->
@@ -123,7 +123,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 				</noise>
 			</ray>
 			<plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-				<topicName>p3dx/scan</topicName>
+				<topicName>scan</topicName>
 				<frameName>lms100</frameName>
 			</plugin>
 		</sensor>

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pioneer_3dx_description")
-set(pioneer_3dx_description_MAINTAINER "Jen Jen Chung <jenjen.chung88@gmail.com>")
-set(pioneer_3dx_description_DEPRECATED "")
-set(pioneer_3dx_description_VERSION "0.0.0")
-set(pioneer_3dx_description_BUILD_DEPENDS )
-set(pioneer_3dx_description_RUN_DEPENDS )
-set(pioneer_3dx_description_BUILDTOOL_DEPENDS "catkin")

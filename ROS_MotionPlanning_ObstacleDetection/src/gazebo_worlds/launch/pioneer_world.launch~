@@ -4,7 +4,7 @@
 		paused:=true -->
 	<arg name="paused" default="false" />
 	<arg name="use_sim_time" default="true" />
-	<arg name="gui" default="true" />
+	<arg name="gui" default="false" />
 	<arg name="headless" default="false" />
 	<arg name="debug" default="false" />
 
@@ -19,10 +19,7 @@
 		<arg name="headless" value="$(arg headless)" />
 	</include>
 
-	<!-- Load the URDF into the ROS Parameter Server -->
-	<param name="robot_description"
-		command="$(find xacro)/xacro.py '$(find p3dx_description)/urdf/pioneer3dx.xacro'" />
-
+	
 
 
           <!-- BEGIN PIONEER 1-->
@@ -47,7 +44,7 @@
   <group ns="pioneer3">
     <param name="tf_prefix" value="pioneer3" />
     <include file="$(find p3dx_description)/launch/one_pioneer.launch" >
-      <arg name="init_pose" value="-x -6 -y -55 -z 0" />
+      <arg name="init_pose" value="-x -4 -y -55 -z 0" />
       <arg name="robot_name"  value="pioneer3" />
     </include>
   </group>	
@@ -56,7 +53,7 @@
   <group ns="pioneer4">
     <param name="tf_prefix" value="pioneer4" />
     <include file="$(find p3dx_description)/launch/one_pioneer.launch" >
-      <arg name="init_pose" value="-x -6 -y -55 -z 0" />
+      <arg name="init_pose" value="-x -2 -y -55 -z 0" />
       <arg name="robot_name"  value="pioneer4" />
     </include>
   </group>	
@@ -65,7 +62,7 @@
   <group ns="pioneer5">
     <param name="tf_prefix" value="pioneer5" />
     <include file="$(find p3dx_description)/launch/one_pioneer.launch" >
-      <arg name="init_pose" value="-x -6 -y -55 -z 0" />
+      <arg name="init_pose" value="-x -0 -y -55 -z 0" />
       <arg name="robot_name"  value="pioneer5" />
     </include>
   </group>	         

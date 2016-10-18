@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pioneer_ros")
-set(pioneer_ros_MAINTAINER "jchu2041 <jchu2041@todo.todo>")
-set(pioneer_ros_DEPRECATED "")
-set(pioneer_ros_VERSION "0.0.0")
-set(pioneer_ros_BUILD_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
-set(pioneer_ros_RUN_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
-set(pioneer_ros_BUILDTOOL_DEPENDS "catkin")

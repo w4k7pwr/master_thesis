@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pionieer_3dx_manual_ctrl")
-set(pionieer_3dx_manual_ctrl_MAINTAINER "wasiel13 <wasiel13@todo.todo>")
-set(pionieer_3dx_manual_ctrl_DEPRECATED "")
-set(pionieer_3dx_manual_ctrl_VERSION "0.0.0")
-set(pionieer_3dx_manual_ctrl_BUILD_DEPENDS )
-set(pionieer_3dx_manual_ctrl_RUN_DEPENDS )
-set(pionieer_3dx_manual_ctrl_BUILDTOOL_DEPENDS "catkin")

@@ -27,8 +27,8 @@ work original in ucs-ros-pkg.
   <!-- import all gazebo-customization elements, including gazebo colors -->
   <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
-      <robotNamespace></robotNamespace>
-    </plugin>
+      <!--robotNamespace></robotNamespace-->
+    <!--/plugin-->
   </gazebo>
   <gazebo reference="base_link">
     <material>Gazebo/Red</material>
@@ -61,8 +61,8 @@ work original in ucs-ros-pkg.
       <wheelSeparation>0.39</wheelSeparation>
       <wheelDiameter>0.15</wheelDiameter>
       <torque>5</torque>
-      <commandTopic>/cmd_vel</commandTopic>
-      <odometryTopic>/odom</odometryTopic>
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>base_link</robotBaseFrame>
     </plugin>
@@ -72,7 +72,7 @@ work original in ucs-ros-pkg.
       <alwaysOn>true</alwaysOn>
       <updateRate>100.0</updateRate>
       <bodyName>base_link</bodyName>
-      <topicName>/base_pose_ground_truth</topicName>
+      <topicName>base_pose_ground_truth</topicName>
       <gaussianNoise>0.01</gaussianNoise>
       <frameName>map</frameName>
       <!-- initialize odometry for fake localization -->
@@ -109,7 +109,7 @@ work original in ucs-ros-pkg.
         </noise>
       </ray>
       <plugin filename="libgazebo_ros_laser.so" name="gazebo_ros_head_hokuyo_controller">
-        <topicName>/scan</topicName>
+        <topicName>scan</topicName>
         <frameName>lms100</frameName>
       </plugin>
     </sensor>

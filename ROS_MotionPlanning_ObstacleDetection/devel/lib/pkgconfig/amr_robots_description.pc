@@ -1,8 +1,0 @@
-prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel
-
-Name: amr_robots_description
-Description: Description of amr_robots_description
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/lib 
-Requires: robot_state_publisher urdf geometry_msgs sensor_msgs std_msgs
