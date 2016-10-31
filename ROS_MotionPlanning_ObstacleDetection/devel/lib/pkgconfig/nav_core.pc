@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.12.13
+Cflags: -I/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/navigation-indigo-devel/nav_core/include
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

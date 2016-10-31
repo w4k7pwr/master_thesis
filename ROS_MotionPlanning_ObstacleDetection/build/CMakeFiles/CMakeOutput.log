@@ -291,3 +291,49 @@ Linking C executable cmTryCompileExec1299208901
 make[1]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
 
 
+The target system is: Linux - 4.2.0-35-generic - x86_64
+The host system is: Linux - 4.2.0-35-generic - x86_64
+The target system is: Linux - 4.2.0-35-generic - x86_64
+The host system is: Linux - 4.2.0-35-generic - x86_64
+The target system is: Linux - 4.2.0-35-generic - x86_64
+The host system is: Linux - 4.2.0-35-generic - x86_64
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4185923383/fast"
+make[1]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4185923383.dir/build.make CMakeFiles/cmTryCompileExec4185923383.dir/build
+make[2]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4185923383.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec4185923383.dir/src.cxx.o -c /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4185923383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4185923383.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTryCompileExec4185923383.dir/src.cxx.o  -o cmTryCompileExec4185923383 -rdynamic 
+make[2]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeded with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1374816458/fast"
+make[1]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1374816458.dir/build.make CMakeFiles/cmTryCompileExec1374816458.dir/build
+make[2]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1374816458.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTryCompileExec1374816458.dir/src.cxx.o -c /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1374816458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1374816458.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTryCompileExec1374816458.dir/src.cxx.o  -o cmTryCompileExec1374816458 -rdynamic 
+make[2]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+The target system is: Linux - 4.2.0-35-generic - x86_64
+The host system is: Linux - 4.2.0-35-generic - x86_64
+The target system is: Linux - 4.2.0-35-generic - x86_64
+The host system is: Linux - 4.2.0-35-generic - x86_64

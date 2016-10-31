@@ -1,0 +1,8 @@
+prefix=/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel
+
+Name: carrot_planner
+Description: Description of carrot_planner
+Version: 1.12.13
+Cflags: -I/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/src/navigation-indigo-devel/carrot_planner/include
+Libs: -L/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/lib -lcarrot_planner
+Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

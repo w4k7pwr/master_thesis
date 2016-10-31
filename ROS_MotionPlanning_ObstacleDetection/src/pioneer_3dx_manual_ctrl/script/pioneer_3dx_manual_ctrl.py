@@ -24,7 +24,7 @@ left = 0.0
 keyPress = 0
 
 while(keyPress != USER_QUIT):
-	pub = rospy.Publisher('/cmd_vel', Twist)
+	pub = rospy.Publisher('/pioneer1/cmd_vel', Twist)
 	rospy.init_node('pioneer_3dx_manual_ctrl')
 
 	twist = Twist()

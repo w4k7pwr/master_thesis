@@ -51,3 +51,39 @@ make[1]: *** [cmTryCompileExec3866664314] Error 1
 make: *** [cmTryCompileExec3866664314/fast] Error 2
 
 
+Determining if the include file FL/Fl.H exists failed with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1700142939/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1700142939.dir/build.make CMakeFiles/cmTryCompileExec1700142939.dir/build
+make[1]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1700142939.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -Wno-deprecated    -o CMakeFiles/cmTryCompileExec1700142939.dir/CheckIncludeFile.cxx.o -c /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:19: fatal error: FL/Fl.H: No such file or directory
+ #include <FL/Fl.H>
+                   ^
+compilation terminated.
+make[1]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1700142939.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTryCompileExec1700142939/fast] Error 2
+
+
+Determining if the include file pgm.h exists failed with the following output:
+Change Dir: /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1627919096/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1627919096.dir/build.make CMakeFiles/cmTryCompileExec1627919096.dir/build
+make[1]: Entering directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1627919096.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -Wno-deprecated    -o CMakeFiles/cmTryCompileExec1627919096.dir/CheckIncludeFile.cxx.o -c /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:17: fatal error: pgm.h: No such file or directory
+ #include <pgm.h>
+                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1627919096.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory `/home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1627919096/fast] Error 2
+
+

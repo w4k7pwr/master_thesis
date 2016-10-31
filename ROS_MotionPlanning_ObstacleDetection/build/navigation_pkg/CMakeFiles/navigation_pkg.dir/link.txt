@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libnavigation_pkg.so -o /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/devel/lib/libnavigation_pkg.so CMakeFiles/navigation_pkg.dir/src/A_Algorithm_navigation.cpp.o 

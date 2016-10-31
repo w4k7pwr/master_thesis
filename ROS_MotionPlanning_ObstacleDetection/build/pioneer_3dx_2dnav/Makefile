@@ -149,92 +149,17 @@ depend:
 	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make pioneer_3dx_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/rule:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f CMakeFiles/Makefile2 pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/rule
-.PHONY : pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/rule
-
-# Convenience name for target.
-move_base_gencfg: pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/rule
-.PHONY : move_base_gencfg
-
-# fast build rule for target.
-move_base_gencfg/fast:
-	cd /home/wasiel13/wasiel_13/SYNERGIA_PROJECTS/master_thesis/ROS_MotionPlanning_ObstacleDetection/build && $(MAKE) -f pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/build.make pioneer_3dx_2dnav/CMakeFiles/move_base_gencfg.dir/build
-.PHONY : move_base_gencfg/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... move_base_gencfg"
 	@echo "... rebuild_cache"
 	@echo "... test"
 .PHONY : help
